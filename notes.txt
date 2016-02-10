@@ -1,0 +1,112 @@
+# concats the notes onto the terminal
+cat notes.txt
+
+# shortcut for ls -lh
+ll
+
+# replaces the history into the notes.txt or creates the file if necessary
+history > notes.txt
+
+# appends the history to the file
+history >> notes.txt
+
+# logs the history to the terminal
+history
+
+# remove
+rm notes.txt
+
+# creates
+touch notes.txt
+
+# clears the terminal (but not the history like command + k)
+clear
+
+# root directory
+/
+
+# Up one, parent directory
+..
+
+# opens the current directory in atom
+atom .
+
+# manual
+man
+
+# input the manual into a file
+man ls > ls.txt
+
+~
+ls
+
+cd ?
+ls /
+tree -L 2
+tree -aL 1
+tree -L 1
+brew install tree
+ls -a
+ls -l@
+ls -U
+ls -S
+ls -n
+ls -m
+ls -G
+man ls
+ls -r
+ls -tl
+ls -lt
+ls -t
+open /Users/WildCatt/
+open ~
+open .
+pwd
+which whoami
+whoami
+open http://catyhong.surge.sh
+surge
+git commit -m 'Add a CNAME'
+git add CNAME
+touch CNAME
+git commit -m 'Add a tiny web page'
+git add index.html
+open index.html
+
+touch index.html
+git init
+cd catyhong.surge.sh/
+mkdir catyhong.surge.sh
+cd Week-1/
+mkdir Week-1
+cd Pro
+mkdir ~/Projects
+surge -V
+npm install -g surge
+rm ~/Desktop/test.js
+node ~/Desktop/test.js
+atom ~/Desktop/test.js
+node
+node -v
+brew install node
+brew upgrade node
+brew outdated
+brew doctor
+curl -fsSL https://git.io/vgqFH | sh
+git config --global user.name 'Catherine Hong'
+git config --global user.email 'catherinehhong@gmail.com'
+git --version
+brew upgrade git
+man git | grep update
+man git
+brew update git
+brew install git
+which git
+which echo
+shout $PATH
+echo $PATH
+echo $EDITOR
+atom ~/.config/fish/config.fish
+fish_update_completions
+rm -rf .git
+curl -fsSL https://git.io/vgqFU | ruby
