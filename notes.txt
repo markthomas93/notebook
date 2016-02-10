@@ -1,6 +1,9 @@
 # concats the notes onto the terminal
 cat notes.txt
-more notes
+#more notes
+#Github stuff and stuff and things
+git push -u origin master
+
 
 # shortcut for ls -lh
 ll
